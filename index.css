@@ -1,4 +1,5 @@
 * {
+    background-color: #a5bdc6;
     margin: 0px;
     padding: 0px;
 }
@@ -9,7 +10,8 @@ header {
 
 .logo {
     display: block;
-    border-radius: 45%;
+    border-radius: 49%;
+    border: black solid 0.20rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.5rem;
@@ -34,7 +36,8 @@ header {
 }
 
 .info:hover {
-    box-shadow: -18px 13px 25px rgba(0, 0, 0, 0.60);
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 50%;
     margin-left: 1rem;
     width: 3.5rem;
     height: 3.5rem;
@@ -44,10 +47,26 @@ header {
     margin: 0.80rem;
     width: 2.5rem;
     height: 2.5rem;
+    border:
 }
 
 .insta:hover {
-    box-shadow: 20px 15px 25px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.35);
+    margin-left: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 25%;
+}
+
+.fb {
+    margin: 0.80rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.fb:hover {
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 33%;
     margin-left: 1rem;
     width: 3.5rem;
     height: 3.5rem;
